@@ -24,6 +24,15 @@ h1 {
     position: right;
 } 
 
+.navbar-brand {
+  background: url(https://images.justgiving.com/image/67b9f7e2-dd4c-4ff4-a53b-f46000e3f180.jpg?template=homepagecard&imagetype=frpphoto&trymigrate=true) center / contain no-repeat;
+  transform: translateX(-50%);
+  left: 95%;
+  bottom: 0%;
+  position: absolute;
+  width: 200px;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
