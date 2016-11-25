@@ -7,13 +7,11 @@
     width: 100%;
 }
 @import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout-Midnight);
-@import url(//db.onlinewebfonts.com/c/f75edd4cf4e3b69dfbc010fb392a414d?family=Blackout-2AM);
 body,h2 {
-    font-family: "Blackout-2AM"; 
+    font-family: "Blackout-Midnight"; 
 }
 
 h1 {
-    font-family: "Blackout-Midnight"
     color: #5B2D90;
     text-align: center;
     font-size: 45px;
