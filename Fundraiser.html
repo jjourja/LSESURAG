@@ -34,7 +34,7 @@
        .filler {
         background-color: orange;
         width: 70px;
-        height: 100px;
+        height: 0px;
         border-radius: 10px 10px 0px 0px;
         position: relative;
         z-index: 1;
@@ -134,4 +134,10 @@
     <h2>£175,000<br>£150,000<br>£125,000<br>£100,000<br>£75,000<br>£50,000<br>£25,000</h2>
     <div class="filler"></div>
   </div>
+
+    <script>
+      $(document).ready(function() {
+        $(".filler").animate({height: "100px"}, "slow");
+      });
+    </script>
 </body>
