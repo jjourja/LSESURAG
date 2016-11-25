@@ -6,12 +6,14 @@
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
     width: 100%;
 }
-@import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout);
-body,h1,h2 {
-    font-family: "Blackout"; 
+@import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout-Midnight);
+@import url(//db.onlinewebfonts.com/c/f75edd4cf4e3b69dfbc010fb392a414d?family=Blackout-2AM);
+body,h2 {
+    font-family: "Blackout-2AM"; 
 }
 
 h1 {
+    font-family: "Blackout-Midnight"
     color: #5B2D90;
     text-align: center;
     font-size: 45px;
