@@ -6,9 +6,9 @@
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
     width: 100%;
 }
-
+@import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout);
 body,h1,h2 {
-    font-family: "Helvetica"; 
+    font-family: "Blackout"; 
 }
 
 h1 {
