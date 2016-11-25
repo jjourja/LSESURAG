@@ -1,11 +1,24 @@
 .jumbotron {
-    padding: 200px;
+    padding: 100px 0px 50px 0px;
     margin-top: -1px;
-    background: #5B2D90;
-    color: #fff;
+    background: rgba(0,0,0,.05)/*#5B2D90*/;
+    color: #FFDD05;
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
     width: 100%;
 }
+<<<<<<< HEAD
+=======
+@import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout-Midnight);
+body,h2 {
+    font-family: "Blackout-Midnight"; 
+    background-color: rgba(0, 0, 0, 0);
+}
+h1 {
+    color: #5B2D90;
+    text-align: center;
+    font-size: 45px;
+}
+>>>>>>> origin/master
 
 .navright {
     float: right; 
