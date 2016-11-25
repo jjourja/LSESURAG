@@ -1,29 +1,10 @@
-.jumbotron {
-    padding: 100px 0px 50px 0px;
-    margin-top: -1px;
-    background: rgba(0,0,0,.05)/*#5B2D90*/;
-    color: #FFDD05;
-    text-shadow: 0 1px 1px rgba(0,0,0,.3);
-    width: 100%;
-}
-
 @import url(//db.onlinewebfonts.com/c/b9afe60e42f08c79f5333c87ed334402?family=Blackout-Midnight);
-
-body,h2 {
-    font-family: "Blackout-Midnight"; 
-    background-color: rgba(0, 0, 0, 0);
-}
-h1 {
-    color: #5B2D90;
-    text-align: center;
-    font-size: 45px;
-}
 
 .navright {
     float: right; 
     background-color: white;
     width: 100%;
-} 
+}
 
 .navbar-brand {
   background: url(https://images.justgiving.com/image/67b9f7e2-dd4c-4ff4-a53b-f46000e3f180.jpg?template=homepagecard&imagetype=frpphoto&trymigrate=true) center / contain no-repeat;
@@ -32,9 +13,103 @@ h1 {
   bottom: 0%;
   position: absolute;
   width: 200px;
+  z-index: 2;
 }
 
-
+.pot {
+    height: 410px;
+    width: 80px;
+    background-color: #e5e5e5;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 250px;
+}
+.filler {
+    background-color: orange;
+    width: 70px;
+    height: 0px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    z-index: 1;
+    top: -1570px;
+    left: 305px;
+}
+.board {
+    background-color: #5B2D90;
+    height: 420px;
+    width: 300px;
+    border-radius: 10px;
+    z-index: -1;
+    position: relative;
+    top: -320px;
+    left: 240px;
+}
+.marker1 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -327px;
+    left: 335px;
+}
+.marker2 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -377px;
+    left: 335px;
+}
+.marker3 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -427px;
+    left: 335px;
+}
+.marker4 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -477px;
+    left: 335px;
+}
+.marker5{
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -527px;
+    left: 335px;
+}
+.marker6 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -577px;
+    left: 335px;
+}
+.marker7 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -627px;
+    left: 335px;
+}
+.marker8 {
+    background-color: #FFDD05;
+    height: 2px;
+    width: 230px;
+    position: relative;
+    top: -677px;
+    left: 335px;
+}
 
 body {
     font-family: "Helvetica"; 
@@ -65,12 +140,27 @@ li a:hover {
 }
 
 h1 {
-    color: #5B2D90;
-    text-align: center;
-    font-size: 54px;
+    font-family: helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFDD05;
+    position: relative;
+    top: -740px;
+    left: 367px;
 }
 
 h2 {
+    font-family: helvetica;
+    font-size: 20px;
+    color: #FFDD05;
+    text-align: right;
+    position: relative;
+    top: -747px;
+    left: -617px;
+    line-height: 48px;
+}
+
+h3 {
   font-size: 28px;
 }
 
