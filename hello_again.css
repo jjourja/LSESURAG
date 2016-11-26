@@ -18,6 +18,19 @@
 }
 
 /*Totaliser on home page*/
+
+.beaver {
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.totaliser {
+    position: relative;
+    top: -900px;
+    left: 0px;
+}
+
 .pot {
     height: 410px;
     width: 80px;
