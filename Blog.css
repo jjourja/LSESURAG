@@ -1,0 +1,89 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #5B2D90;
+}	
+
+.navright {
+    float: right; 
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid ;
+    z-index: 2;
+}
+
+.navbar-brand {
+  background: url(https://images.justgiving.com/image/67b9f7e2-dd4c-4ff4-a53b-f46000e3f180.jpg?template=homepagecard&imagetype=frpphoto&trymigrate=true) center / contain no-repeat;
+  transform: translateX(-50%);
+  left: 95%;
+  bottom: 0%;
+  position: absolute;
+  width: 200px;
+}
+
+header {
+    background-color: #5B2D90;
+    color: #FFDD05;
+    text-align: center;
+    font-family: Blackout-Midnight;
+    font-size: 52px;
+    height: 70px;
+    position: absolute;
+    top: 750px;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+div .blog-header {
+    color: #FFDD05;
+    background: #5B2D90;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+h1.blog-title {
+	font-size: 60px;
+}
+
+div.comments {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+div.blog-post {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+p.blog-post-meta {
+	font-style: italic;
+}
+
+p.hashtags {
+	color: #5B2D90;
+	font-weight: bold;
+}
