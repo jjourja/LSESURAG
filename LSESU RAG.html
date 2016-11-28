@@ -53,19 +53,35 @@
  
 <div class="container">
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-4 nopadding">
 <div class="About">
-        <a href="About.html"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' border: "1px solid #021a40" width="250"></a>
-        <h3>ABOUT</h3></div></div>
+        <a href="About.html"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' align: "center"; border: "1px solid #021a40" width="250"><h3>ABOUT</h3></a></div></div>
 
 
-<div class="col-sm-4">
-        <div class="Blog">
-        <a href="Blog.html"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' border: "1px solid #021a40" width="250"></a></div></div>
+<div class="col-sm-4 nopadding">
+        <div class='home'><a href="Blog.html"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' border: "1px solid #021a40" width="250"><h3>BLOG</h3></a></div></div>
 
 
-<div class="col-sm-4">
-        <div class="Contact"><a href="Blog.html"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' border: "1px solid #021a40" width="250"></a></div></div></div></div></div>
+<div class="col-sm-4 nopadding">
+         <div class="Contact"><a data-toggle="modal" href="#Contact"><img src='http://66.media.tumblr.com/a70670afa4e59f106c9d63bfb3697882/tumblr_inline_mzwn1khpsv1qiihii.jpg' border: "1px solid #021a40" width="250"><h3>CONTACT</h3></a>
+         <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="ContactLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="ContactLabel">Got any questions or comments?</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p><form role='form'>
+                            <label for="email">E-mail</label><br>
+                            <input type="email" class="form-control" id="email_input" placeholder="Your E-mail"><br>
+                            <div class="form-group">
+                             <label for="email_message">Message</label>
+                             <textarea class="form-control" rows="10"></textarea>
+                           </div>
+                           <center><button class='btn btn-primary'>Send</button></center>
+                         </form></p></div></div></div></div></div></div></div></div>
+
 
 
 <footer class="footer">
