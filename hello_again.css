@@ -181,6 +181,19 @@ li a:hover {
     background-color: #5B2D90;
 }
 
+a {
+color: #5B2D90;
+}
+
+}
+a:visited {
+color: #999999;
+}
+
+a:hover {
+color: #FFDD05;
+}
+
 h1 {
     font-family: helvetica;
     font-size: 34px;
