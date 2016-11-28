@@ -263,3 +263,7 @@ a, a:hover, a:visited, a:active {
     position: relative;
     top: -200px;
 }
+small {
+    font-family: helvetica;
+    font-size: 12px;
+}
