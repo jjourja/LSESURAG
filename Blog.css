@@ -18,11 +18,11 @@ li.active a {
 }
 
 li a:hover {
-    background-color: #5B2D90;
+    background-color: #FFDD05;
 }	
 
 .navright {
-    background-color: white;
+    background-color: #5B2D90;
     width: 100%;
     border-bottom: 2px solid #5B2D90;
     z-index: 2;
