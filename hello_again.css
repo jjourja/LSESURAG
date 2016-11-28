@@ -23,7 +23,7 @@
 .beaver {
     position: absolute;
     top: 0px;
-    left: 500px;
+    left: 650px;
     z-index: -2;
 }
 
@@ -35,7 +35,7 @@
     z-index: 1;
     position: absolute;
     top: 300px;
-    left: 160px;
+    left: 360px;
 }
 .filler {
     background-color: orange;
@@ -46,6 +46,8 @@
     z-index: 1;
     bottom: -710px;
     left: 165px;
+    bottom: -710px;
+    left: 365px;
 }
 .board {
     background-color: #5B2D90;
@@ -55,7 +57,7 @@
     z-index: -1;
     position: absolute;
     top: 290px;
-    left: 150px;
+    left: 350px;
     border: solid 2px;
 }
 .marker1 {
@@ -64,7 +66,7 @@
     width: 200px;
     position: absolute;
     top: 350px;
-    left: 250px;
+    left: 450px;
 }
 .marker2 {
     background-color: #FFDD05;
@@ -72,7 +74,7 @@
     width: 200px;
     position: absolute;
     top: 400px;
-    left: 250px;
+    left: 450px;
 }
 .marker3 {
     background-color: #FFDD05;
@@ -80,7 +82,7 @@
     width:200px;
     position: absolute;
     top: 450px;
-    left: 250px;
+    left: 450px;
 }
 .marker4 {
     background-color: #FFDD05;
@@ -88,7 +90,7 @@
     width:200px;
     position: absolute;
     top: 500px;
-    left: 250px;
+    left: 450px;
 }
 .marker5{
     background-color: #FFDD05;
@@ -96,7 +98,7 @@
     width:200px;
     position: absolute;
     top: 550px;
-    left: 250px;
+    left: 450px;
 }
 .marker6 {
     background-color: #FFDD05;
@@ -104,7 +106,7 @@
     width:200px;
     position: absolute;
     top: 600px;
-    left: 250px;
+    left: 450px;
 }
 .marker7 {
     background-color: #FFDD05;
@@ -112,7 +114,7 @@
     width:200px;
     position: absolute;
     top: 650px;
-    left: 250px;
+    left: 450px;
 }
 .marker8 {
     background-color: #FFDD05;
@@ -120,7 +122,7 @@
     width:200px;
     position: absolute;
     top: 700px;
-    left: 250px;
+    left: 450px;
 }
 
 .container {
@@ -188,7 +190,7 @@ h1 {
     color: #FFDD05;
     position: absolute;
     top: 290px;
-    left: 300px;
+    left: 500px;
 }
 
 h2 {
@@ -198,7 +200,7 @@ h2 {
     text-align: right;
     position: absolute;
     top: 340px;
-    left: 350px;
+    left: 550px;
     line-height: 50px;
 }
 
@@ -260,6 +262,4 @@ a, a:hover, a:visited, a:active {
 .totaliser {
     position: relative;
     top: -200px;
-    /*top: -100px;
-    left: 100px;*/
 }
