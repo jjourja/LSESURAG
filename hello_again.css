@@ -2,37 +2,30 @@
 
 .navright {
     float: right; 
-    background-color: white;
+    background-color: #5B2D90;
     width: 100%;
-    border-bottom: 2px solid #5B2D90;
+    border-bottom: 2px solid black;
     z-index: 2;
 }
 
 .navbar-brand {
-  background: url(https://images.justgiving.com/image/67b9f7e2-dd4c-4ff4-a53b-f46000e3f180.jpg?template=homepagecard&imagetype=frpphoto&trymigrate=true) center / contain no-repeat;
   transform: translateX(-50%);
   left: 95%;
   bottom: 0%;
   position: absolute;
   width: 200px;
-}
+}*/
 
-.wrapper {
+/*.wrapper {
     position: relative;
-}
+}*/
 
-.beaver {
+/*.beaver {
     position: absolute;
     top: 0px;
     left: 500px;
     z-index: -2;
-}
-
-.totaliser {
-    position: absolute;
-    top: -100px;
-    left: 100px;
-}
+}*/
 
 .pot {
     height: 410px;
@@ -41,7 +34,7 @@
     border-radius: 10px 10px 0px 0px;
     z-index: 1;
     position: absolute;
-    top: 300px;
+    top: 0px;
     left: 160px;
 }
 .filler {
@@ -49,9 +42,9 @@
     width: 70px;
     height: 0px;
     border-radius: 10px 10px 0px 0px;
-    position: absolute;
+    position: relative;
     z-index: 1;
-    bottom: -710px;
+    bottom: -598px;
     left: 165px;
 }
 .board {
@@ -63,6 +56,7 @@
     position: absolute;
     top: 290px;
     left: 150px;
+    border: solid 2px;
 }
 .marker1 {
     background-color: #FFDD05;
@@ -131,7 +125,14 @@
 
 .container {
     position: relative;
-    top: 775px;
+    top: 475px;
+}
+
+#image2 {
+border-style: solid;
+border-color: #FFDD05;
+border-width: 6px;
+border-radius: 20px 20px 20px 20px;
 }
 
 #image2 {
@@ -149,11 +150,12 @@ header {
     font-size: 52px;
     height: 70px;
     position: relative;
-    top: 750px;
+    top: 450px;
 }
 
 body {
     font-family: "Helvetica"; 
+    background-color: rgba(255, 221, 5, 1);
 
 }
 
@@ -221,17 +223,57 @@ h3 {
   text-align: center;
 }
 
+h4 {
+    font-family: Blackout-Midnight;
+    color: #FFDD05;
+    text-align: right;
+    font-size: 35px;
+    padding-right: 20px;
+}
+
 p {
+    font-family: Blackout-Midnight;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 10px;
+    line-height: 15px;
     text-align: justify;
-    margin-bottom: 50px;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    width: 282px;
+}
+.show-description p {
+  height: 188px;
+  }
+h5 {
+    text-align: center;
+    font-family: Blackout-Midnight;
 }
 
 footer {
     position: relative;
-    top: 800px;
+    top: 500px;
     width: 100%;
     height: 50px;
     background-color: #5B2D90;
     color: white;
     padding: 14px 16px;
+}
+a, a:hover, a:visited, a:active {
+    color: #5B2D90;
+}
+.totaliser {
+    position: relative;
+    top: -200px;
+    /*top: -100px;
+    left: 100px;*/
 }
